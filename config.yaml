@@ -1,0 +1,30 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: EarthSense Lab
+theme: hugo-theme-notrack
+newContentEditor: nvim
+mainSections: blog
+paginate: 2
+params:
+  author: Mussa Ngosha
+  blogLatestHeading: Latest Blog Posts
+  favicon: ngosha.jpg
+  mainSections: blog
+  nBlogLatest: 2
+  showBlogLatest: yes
+  showTaxonomyLinks: no
+  siteHeading: GeoSense Lab
+  social:
+    email: ngoshamussa@yahoo.com
+    github: example
+    keybase: example
+    linkedin: example
+    mastodon: example
+    rss: rss won't use the value you give it so you can put anything here
+taxonomies:
+  categories: categories
+  month: month
+  tags: tags
+  year: year
+permalinks:
+  blog: /blog/:year/:month/:slug
